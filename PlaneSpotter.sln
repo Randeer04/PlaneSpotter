@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaneSpotter", "PlaneSpotter\PlaneSpotter.csproj", "{7BDF79E0-DD48-40A9-BB10-43D02C495A11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Common", "..\Microservices.Common\Microservices.Common\Microservices.Common.csproj", "{80FCEFDE-50F3-4EA6-99CB-25990ED29491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BDF79E0-DD48-40A9-BB10-43D02C495A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDF79E0-DD48-40A9-BB10-43D02C495A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDF79E0-DD48-40A9-BB10-43D02C495A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDF79E0-DD48-40A9-BB10-43D02C495A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FCEFDE-50F3-4EA6-99CB-25990ED29491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FCEFDE-50F3-4EA6-99CB-25990ED29491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FCEFDE-50F3-4EA6-99CB-25990ED29491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FCEFDE-50F3-4EA6-99CB-25990ED29491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D88B3955-1320-4EBB-AA36-A5579D69AF69}
+	EndGlobalSection
+EndGlobal
