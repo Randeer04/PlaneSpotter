@@ -69,8 +69,6 @@ namespace PlaneSpotter
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Plane Spotter v1"));
             }
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();
@@ -78,8 +76,6 @@ namespace PlaneSpotter
                .AllowAnyOrigin()
                .AllowAnyMethod()
                .AllowAnyHeader());
-
-            app.UseHttpsRedirection();
 
             app.UseEndpoints(endpoints =>
             {
